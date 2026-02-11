@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website Navigation</title>
+    <style>
+        *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial,Helvetica,sans-serif;
+        }
+        
+        main{
+            width:95%;
+            max-width:1400px;
+            margin:40px auto;
+            border:2px solid #000;
+        }
+
+        header{
+            background:#ddd;
+            text-align:center;
+            padding:25px 0;
+            font-size:28px;
+        }
+        header span{color:red;}
+
+        nav{
+            padding:20px 0 30px 25px;
+        }
+
+        .top-links a,
+        .bottom-links a{
+            display:inline-block;
+            padding:10px 18px;
+            margin:6px;
+            text-decoration:none;
+            color:#000;
+            border:1px solid #999;
+            font-size:18px;
+        }
+
+        .top-links a{background:#cce9ff;}
+        .bottom-links a{background:#c9ffc9;}
+    </style>
+</head>
+<body>
+    <main>
+        <header>My <span>Website</span> Navigation</header>
+
+        <nav>
+            <div class="top-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="bottom-links">
+                <a href="#">Dashboard</a>
+                <a href="#">Profile</a>
+                <a href="#">Messages</a>
+                <a href="#">Logout</a>
+            </div>
+        </nav>
+    </main>
+</body>
+</html>
