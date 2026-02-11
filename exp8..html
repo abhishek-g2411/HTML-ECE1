@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Cards</title>
+    <style>
+        *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial,Helvetica,sans-serif;
+        }
+
+        main{
+            width:95%;
+            max-width:1200px;
+            margin:20px auto;
+            border:1px solid #000;
+            padding:30px 0;
+            display:flex;
+            justify-content:space-around;
+            background:#fff;
+        }
+
+        .card{
+            width:260px;
+            background:#fff;
+            box-shadow:0 0 10px rgba(0,0,0,0.15);
+            border-radius:12px;
+            text-align:center;
+            padding:25px 10px 20px;
+        }
+
+        .avatar{
+            width:90px;
+            height:90px;
+            border-radius:50%;
+            background:#007bff;
+            color:#fff;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            margin:0 auto 18px;
+            font-size:26px;
+            font-weight:bold;
+        }
+
+        .name{
+            font-weight:bold;
+            margin-bottom:6px;
+        }
+
+        .line{
+            font-size:13px;
+            margin:2px 0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <div class="avatar">HS</div>
+            <div class="name">Harshit Sharma</div>
+            <div class="line">B.Tech - CSE</div>
+            <div class="line">Roll No: 2025B01010829</div>
+            <div class="line">1st Year</div>
+        </div>
+
+        <div class="card">
+            <div class="avatar">KT</div>
+            <div class="name">Khushi Tiwari</div>
+            <div class="line">B.Tech - AI-Ml</div>
+            <div class="line">Roll No: 2025B01010814 </div>
+            <div class="line">1st Year</div>
+        </div>
+
+        <div class="card">
+            <div class="avatar">AG</div>
+            <div class="name">Abhishek Gupta</div>
+            <div class="line">B.Tech - ECE</div>
+            <div class="line">Roll No: 2025B03110106</div>
+            <div class="line">1st Year</div>
+        </div>
+    </main>
+</body>
+</html>
